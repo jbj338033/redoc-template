@@ -1,4 +1,6 @@
 package com.jmo.redoctemplate.domain.post.dto.request
 
-class PostCreateRequest {
-}
+data class PostCreateRequest(
+    val title: String,
+    val content: String
+)
