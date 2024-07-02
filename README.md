@@ -2,7 +2,7 @@
 This is a template for Redoc documentation. It is a simple and easy to use template. It is based on the Redoc documentation.
 
 ## How to configure
-1. Change the `title` in the `static/redoc.html` file.
+1. Change the `title` in the `static/docs.html` file.
 2. Change the `global/config/SwaggerConfig.kt` file to configure the API documentation.
 
 ## How to run
