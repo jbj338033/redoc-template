@@ -9,9 +9,5 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing
 class RedocTemplateApplication
 
 fun main(args: Array<String>) {
-    println(System.getenv("DATABASE_URL"))
-    println(System.getenv("DATABASE_USERNAME"))
-    println(System.getenv("DATABASE_PASSWORD"))
-
     runApplication<RedocTemplateApplication>(*args)
 }
